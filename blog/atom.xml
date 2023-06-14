@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2023-05-30T00:00:00.000Z</updated>
+    <updated>2023-06-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.57.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.57.1"/>
+        <updated>2023-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.1 brings a few bugfixes while we are working on 0.58.0]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.1 brings a few bugfixes while we are working on 0.58.0</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1910 Adjust the German and Portuguese translations</li><li>ICAP-1886 Call volumes widget shows wrong statistics if a donut chart is selected</li><li>ICAP-1887 The filter's label is missing when Table is changed with Donut chart for a call volumes widget</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="important-news-about-the-roadmap-and-next-steps-from-our-side">Important news about the roadmap and next steps from our side:<a href="#important-news-about-the-roadmap-and-next-steps-from-our-side" class="hash-link" aria-label="Direct link to Important news about the roadmap and next steps from our side:" title="Direct link to Important news about the roadmap and next steps from our side:">​</a></h3><ul><li>We're working on upload of extensions from CSV to simplify the onboarding of new customers. Since upload from CSV requires PortaSwitch MR106, updates to 0.58.0 will be postponed until your PortaSwitch is updated.</li><li>We are evaluating possible solutions for the documentation of the portal.</li><li>If you are interested in having documentation on your own domain name or in translation to other languages - please reach out to us.</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.1" term="0.57.1"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 0.57.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.57.0</id>
