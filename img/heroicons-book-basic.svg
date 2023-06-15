@@ -1,0 +1,47 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="svg-snoweb svg-theme-light"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet"
+>
+<defs>
+    <style>
+        
+            
+            
+            
+        
+
+        .svg-fill-primary {
+            fill: #F5841F;
+        }
+
+        .svg-fill-secondary {
+            fill: #65CDAE;
+        }
+
+        .svg-fill-tertiary {
+            fill: #E5E7EB;
+        }
+
+        .svg-stroke-primary {
+            stroke: #F5841F;
+        }
+
+        .svg-stroke-secondary {
+            stroke: #65CDAE;
+        }
+
+        .svg-stroke-tertiary {
+            stroke: #E5E7EB;
+        }
+    </style>
+</defs>
+    <path d="M50,25.4V79.9m0-54.5a34.06,34.06,0,0,0-18.9-5.3,34,34,0,0,0-18.8,5.3V79.9a34,34,0,0,1,18.8-5.3A34.06,34.06,0,0,1,50,79.9m0-54.5a34.06,34.06,0,0,1,18.9-5.3,34,34,0,0,1,18.8,5.3V79.9a34,34,0,0,0-18.8-5.3A34.06,34.06,0,0,0,50,79.9"
+      fill="none" class="svg-stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+
+</svg>
