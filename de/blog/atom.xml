@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
+    <title>Cloud Call Center Documentation Blog</title>
+    <updated>2023-06-14T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
+    <subtitle>Cloud Call Center Documentation Blog</subtitle>
+    <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.1"/>
+        <updated>2023-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.1 brings a few bugfixes while we are working on 0.58.0]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.1 brings a few bugfixes while we are working on 0.58.0</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1910 Adjust the German and Portuguese translations</li><li>ICAP-1886 Call volumes widget shows wrong statistics if a donut chart is selected</li><li>ICAP-1887 The filter's label is missing when Table is changed with Donut chart for a call volumes widget</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="important-news-about-the-roadmap-and-next-steps-from-our-side">Important news about the roadmap and next steps from our side:<a href="#important-news-about-the-roadmap-and-next-steps-from-our-side" class="hash-link" aria-label="Direkter Link zur Important news about the roadmap and next steps from our side:" title="Direkter Link zur Important news about the roadmap and next steps from our side:">​</a></h3><ul><li>We're working on upload of extensions from CSV to simplify the onboarding of new customers. Since upload from CSV requires PortaSwitch MR106, updates to 0.58.0 will be postponed until your PortaSwitch is updated.</li><li>We are evaluating possible solutions for the documentation of the portal.</li><li>If you are interested in having documentation on your own domain name or in translation to other languages - please reach out to us.</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.1" term="0.57.1"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.0"/>
+        <updated>2023-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.0 brings wallboards in fullscreen mode, useful for creating information radiators for a team, such as big monitors or TV screens.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.0 brings wallboards in fullscreen mode, useful for creating information radiators for a team, such as big monitors or TV screens.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1716: Allow users to open the Wallboard in a full-screen mode</li><li>ICAP-1744: Show a hyphen in Active calls column for the list of SIP trunks in case there are no active calls</li><li>ICAP-1873: Add new translations for German and Brazilian Portuguese</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1452: Call screening time filters display DB value instead of human-readable format</li><li>ICAP-1555: Pager is broken after a device is removed from a page following the first page</li><li>ICAP-1593: Portal crashes on opening extension page if API role restricts access to DID numbers</li><li>ICAP-1595: Newly created auto-attendant menu is not shown after going back to the menu list</li><li>ICAP-1599: Pager for device list is not changed after the upload</li><li>ICAP-1667: Login page is not returned after clicking Back in browser window from 2FA page</li><li>ICAP-1669: The wrong message is shown after generating and confirming MFA config from the profile page</li><li>ICAP-1677: Notification about enabling 2FA is not shown if MFA key was configured before</li><li>ICAP-1708: Do not show hours for calls that last for 1 minute</li><li>ICAP-1739: Counter for Fax mailboxes, DID numbers and Devices</li><li>ICAP-1740: Total is not changed after removing extension from the list</li><li>ICAP-1608: Remove the error if a file is chosen as a MOH file for a call queue</li><li>ICAP-1799: No German and Portuguese localization for call recording notification error</li><li>ICAP-1853: Error on attempt to open entity after confirming saving unsaved changes</li><li>ICAP-1868: "There is no data to display" is not shown for "Call volumes" widget if the time range is 5 or 7 days and there were no calls for this period</li><li>ICAP-1874: Non-standard style of the donut chart for a call volumes widget</li><li>ICAP-1875: Portal crashes on opening SIP trunk page if API role restricts access to DID numbers</li><li>ICAP-1877: The loading spinner is not centrally aligned when devices are being uploaded from a CSV file</li><li>ICAP-1888: Layout issue with localized Auto refresh rate</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.0" term="0.57.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.56.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.56.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.56.0"/>
+        <updated>2023-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.56.0 brings beautiful wallboards and bugfixes]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.56.0 brings beautiful wallboards and bugfixes</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1592 Dashboard shows 0 in DIDs statistics if DID component is restricted by API role</li><li>ICAP-1633 Show time intervals for auto-attendant menus based on the value of period</li><li>ICAP-1081 Highlight the tab with an error to help users understand why their changes cannot be saved</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1636 The quick access panel overlaps the dashboard</li><li>ICAP-1726 Disable the Save button for widget dialogues if their mandatory fields are not filled in</li><li>ICAP-1757 Show "Transfer to fax mailbox" instead of "Transfer to voicemail" if fax_only_mode is inherited by the auto-attendant from its product</li><li>ICAP-1828 Remove the unnecessary scroll for the call volumes widget</li><li>ICAP-1836 Fields are jumping on validating the port for SIP contact</li><li>ICAP-1842 Tab names for SIP trunk details and AA menu</li><li>ICAP-1847 Impossible to assign device lines to extensions except for the first line</li><li>ICAP-1851 Device name is shown like model if the same device has several lines assigned to the same extension</li><li>ICAP-1852 Unassigned device is cached after re-opening the Assign device dialogue</li><li>ICAP-1860 Cannot upload MOH for call queue in Ring Group on CloudPBX UI</li><li>ICAP-1854 Layout issues on the dashboard</li><li>ICAP-1855 Extension is not shown for an active call</li><li>ICAP-1861 The Save button is active for the dialogue even if no changes are made for a device/port assigned to an extension</li><li>ICAP-1865 The call queue on-hold music is disabled after a ringback tone is changed for the same ring group</li><li>ICAP-1866 Link in "Access to the extension portal" section does not redirect to tab Device</li><li>ICAP-1867 Number of calls checkbox is missing for Call volumes widget</li><li>ICAP-1869 Enabled "Number of calls" option of a call volume widget is reset when the "Show" filter changes its value</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.56.0" term="0.56.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.55.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.55.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.55.0"/>
+        <updated>2023-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.55.0 brings SIP trunks and initial version of wallboards.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.55.0 brings SIP trunks and initial version of wallboards.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-28 Allow users to change their first or expired password</li><li>ICAP-1251 Shared line appearance</li><li>ICAP-1659 Force clear cache and hard reload when there's a version mismatch</li><li>ICAP-1676 Add a warning to Reset 2FA key dialogue</li><li>ICAP-1804 Add validation for a port range used with SIP contact</li><li>ICAP-1814 Add validation for duplicate web logins and invalid web passwords</li></ul><p><strong>Bugs:</strong></p><ul><li>ICAP-1830 Prohibit to change a user's role when permissions are View only</li><li>ICAP-1552 Add white spaces to time intervals in German and Portuguese</li><li>ICAP-1591 Use the same style for confirmation dialogs to delete an auto-attendant menu</li><li>ICAP-1668 Size of the selectors that set hours for call screening time intervals</li><li>ICAP-1734 Warning about unsaved changes appears after deleting an entity with unsaved changes</li><li>ICAP-1753 Auto-generate a web password with the length defined by option Web.PasswordMinLength</li><li>ICAP-1756 Remove undefined from the action of an auto-attendant menu for event:f</li><li>ICAP-1803 Default protocol is not shown when enabling SIP contact</li><li>ICAP-1827 Layout issue with a very small-size donut сhart</li><li>ICAP-1829 Restrict changes of a forwarding mode for a View-only permission</li><li>ICAP-1831 Widget to monitor call volumes can be created without default options</li><li>ICAP-1838 "Selected extensions/ring" group and "Time range" are validated as empty even after they were filled in</li><li>ICAP-1841 Fix the warning for the dialog to reset the 2FA key</li><li>ICAP-1845 Fix the styling of the hint on tab Extension</li><li>ICAP-1850 Assigned extension is not shown in "Edit line" dialogue on device page</li><li>ICAP-1857 Errors on attempt to save auto-generated new password in "My profile"</li><li>ICAP-1858 Incorrect password length is used to generate and validate user password</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.55.0" term="0.55.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.54.2]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.54.2</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.54.2"/>
+        <updated>2023-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.54.2 brings widget with iFrame and widget to monitor call volumes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.54.2 brings widget with iFrame and widget to monitor call volumes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1777 Localize an error when a service password for a SIP trunk and extensions does not meet the password rules'</li><li>ICAP-1781 Add a section "Access to the extension portal"</li><li>ICAP-1785 Wallboard widget to monitor call volumes</li><li>ICAP-1811 Add a queue of tasks that can be shared among multiple wallboard widgets</li><li>ICAP-1813 Allow to save changes on a tab with Full access permissions while other tabs have View only permissions</li><li>ICAP-1823 Add an icon for widgets that embed contents of other websites</li><li>ICAP-1825 Show the status for an extension that has an incoming dequeued call</li><li>ICAP-1701 Adjust site description to be more informative rather than current "Web site created using create-react-app"</li></ul><p><strong>Bugs:</strong></p><ul><li>ICAP-1724 Tab name shows previously opened tab name for wallboard page</li><li>ICAP-1732 Adjust the text of the dialogue to remove a widget</li><li>ICAP-1765 Remove API calls not needed for SIP trunks</li><li>ICAP-1768 Impossible to disable call forwarding if Simple forwarding mode has no phone number defined</li><li>ICAP-1774 Localization of errors for the dialogue to add new SIP trunks</li><li>ICAP-1775 Localize error "id_cannot_be_used__node_with_the_same_id_exists" for the dialogue to create a new SIP trunk</li><li>ICAP-1776 "PortaOne" is used for tab name for SIP trunks page</li><li>ICAP-1780 Widgets of the same type are auto-refreshed together regardless of individual auto-refresh rates</li><li>ICAP-1782 View only permissions allow to enable/disable service features of a SIP trunk</li><li>ICAP-1793 SIP trunk details load too long</li><li>ICAP-1796 It is impossible to choose a different value of "The PBX is registered using account ID" option of a SIP trunk</li><li>ICAP-1800 Adjust the URL path to SIP trunk details and Portal users</li><li>ICAP-1805 Update user attribute for SIP contact after switching from Dynamic address to Static address</li><li>ICAP-1807 It is not obvious that the table presentation is not available for widgets of iFrame type</li><li>ICAP-1815 Unexpected API call to change SIP contact attributes when a service password is updated for a SIP trunk</li><li>ICAP-1816 Call volumes widget ignores the autoRefresh rate</li><li>ICAP-1817 Layout issue for widgets that are being refreshed</li><li>ICAP-1818 Donut is not shown if there were no calls for a selected time range</li><li>ICAP-1824 Custom link ignores its permission if the value of CUSTOM_LINKS contains a new line character</li><li>ICAP-1835 Widget with "call volumes" type doesn't show recent calls if time range is 1hour or 3hours</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.54.2" term="0.54.2"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.53.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.53.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.53.0"/>
+        <updated>2023-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.53.0 introduces wallboard for presence of extensions, pemissions for custom links and SIP contact settings to configure SIP trunks.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.53.0 introduces wallboard for presence of extensions, pemissions for custom links and SIP contact settings to configure SIP trunks.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1715 Wallboard widget to monitor presence of extensions</li><li>ICAP-1727 Import missing translations for German and Brazilian Portuguese</li><li>ICAP-1760 Add SIP Contact settings for SIP trunks needed to deliver incoming calls to a PBX that does not support digest authentication</li><li>ICAP-1786 Introduce permissions for custom links</li><li>ICAP-1795 Make it clear that there is no data to display in a widget</li></ul><p><strong>Bugs:</strong></p><ul><li>ICAP-1717 docker npm production build fails - lack of memory</li><li>ICAP-1576 Custom links are not shown if the portal view configuration is missing</li><li>ICAP-1723 Permissions for wallboard are not applicable to widgets</li><li>ICAP-1728 "30 sec (default)" is cropped for a dialogue to add/edit widget</li><li>ICAP-1754 Symbols counter is not shown for a service password (extension and SIP trunk)</li><li>ICAP-1764 Missing max_size parameter in a call to set the auto-attendant menu transition with action DirectDial</li><li>ICAP-1767 Adjust the tooltip for the option "Send the call recording via email" of a SIP trunk</li><li>ICAP-1778 It is impossible to enable "Send the call recording via email" for SIP trunk even if email is set</li><li>ICAP-1790 Presence widget shows wrong information about active calls and status of extensions</li><li>ICAP-1792 Layout issues with the wallboard widgets</li><li>ICAP-1797 Validation error on attempt to use IP for "Host" in trunk SIP contact</li><li>ICAP-1802 Wrong IP and domain format can be entered in "Host" for SIP contact</li><li>ICAP-1808 Remove "undefined" for extensions that have no extension names in widget filters</li><li>ICAP-1809 Delete button is not shown in the dialogue to edit a widget</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.53.0" term="0.53.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.52.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.52.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.52.0"/>
+        <updated>2023-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.52.0 introduces SIP trunk management, possibility to restrict trusted websites to embed via iFrame widget.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.52.0 introduces SIP trunk management, possibility to restrict trusted websites to embed via iFrame widget.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1650 List of SIP trunks</li><li>ICAP-1700 Allow to switch between voicemail and fax mailbox for auto-attendants</li><li>ICAP-1742 Change the config to generate security-related web headers</li><li>ICAP-1755 List of trusted web applications that could be embedded as widgets</li><li>ICAP-1736 SIP trunk details</li><li>ICAP-1772 Add a new status Inactive for SIP trunks</li></ul><p><strong>Bugfixes:</strong></p><ul><li>ICAP-1746 Show Transfer to voicemail action for those auto-attendants which have fax_only mode disabled</li><li>ICAP-1720 'Service password' regenerate button ignores Accounts.CreditAccMinServicePasswdLength option and uses the Web.PasswordMinLength value instead</li><li>ICAP-1747 event:f must be localized as Fax for auto-attendants</li><li>ICAP-1748 "Transfer to fax mailbox" is shown as an option in the list of actions when the menu is inactive and fax_only mode is disabled for the auto-attendant</li><li>ICAP-1751 Prohibit to switch between voicemail and fax-to-email if unified messaging cannot be edited by end users</li><li>ICAP-1773 Capitalized word SIP in the snackbar messages</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.52.0" term="0.52.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.51.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.51.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.51.0"/>
+        <updated>2023-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.51.0 introduces Wallboards PoC, adds duration to the active calls list.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.51.0 introduces Wallboards PoC, adds duration to the active calls list.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1589 Wallboard</li><li>ICAP-1627 Add duration to info about Current calls</li><li>ICAP-1707 Process different values of hunt_delay and hunt_expire for huntgroup members</li></ul><p><strong>Bugs:</strong></p><ul><li>ICAP-1719 Add new nodes to permissions-input.json</li><li>ICAP-1733 Misprint in ring group member window for "Permamently"</li><li>ICAP-1703 Error is shown when changing type from simple forwarding or forward to SIP URI to advanced forwarding or follow-me</li><li>ICAP-1729 Background color differs when scrolling widgets down</li><li>ICAP-1654 Make option "Ignore follow-me/voicemail" default for new ring group members</li><li>ICAP-1718 Dialogue to confirm that a wallboard widget can be deleted</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.51.0" term="0.51.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.50.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.50.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.50.1"/>
+        <updated>2023-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.50.1 improves translations to German and Portuguese, error handling in case restricted access to the call settings.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.50.1 improves translations to German and Portuguese, error handling in case restricted access to the call settings.  </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1571 Add localization for missing charges</li><li>ICAP-1579 Display a message about access restrictions to call settings, call screening, call forwarding of auto-attendant if access is forbidden by a role</li><li>ICAP-1655 Hide "Add to ring group" button for branch office extensions</li><li>ICAP-1670 Additional information about calls to ring groups/call queues</li><li>ICAP-1635 Get missing translations</li><li>ICAP-1690 Code cleanup</li></ul><p><strong>Bugfixes:</strong></p><ul><li>ICAP-1698 2FA is enabled for portal user before confirming this action in the pop-up window</li><li>ICAP-1548 Misaligned call screening filter column headers and values in these columns</li><li>ICAP-1594 Different height of cells with content in modes/response messages and from/to filters</li><li>ICAP-1694 Vertical scroll appears when adding 2nd custom interval with defined time for AA menu when the same scroll is not shown for full day interval</li><li>ICAP-1696 Layout issues for Call screening buttons when they are localized</li><li>ICAP-1704 The badge with the billing status is too long</li><li>ICAP-1706 "hunt_delay" and "hunt_expire" are not saved with 0 if creating/updating group member from extension page</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.50.1" term="0.50.1"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.48.0 and 0.49.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.49.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.49.0"/>
+        <updated>2023-01-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Releases 0.48.0 and 0.49.0 were stabilization releases with mostly bugfixing.]]></summary>
+        <content type="html"><![CDATA[<p>Releases 0.48.0 and 0.49.0 were stabilization releases with mostly bugfixing.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1603 Prohibit to delete a device in use</li></ul><p><strong>Bugfixes:</strong></p><ul><li>ICAP-1573 Restrict ability to add ring groups by branch from Dashboard page</li><li>ICAP-1600 It is impossible to create a ring group with disabled call pickup</li><li>ICAP-1631 Re-name the JSON node from Change password to Security</li><li>ICAP-1641 Impossible to save a number for simple forwarding and forwarding to SIP-URI if the feature is inherited from the product</li><li>ICAP-1649 Handle the value of Phone number for Simple forwarding separately from the value added for Forward to SIP-URI</li><li>ICAP-1653 Forwarding mode and rules are not preserved without saving if extension initially had disabled forwarding</li><li>ICAP-1695 Impossible to delete the last rule for Follow-me and Advanced forwarding</li><li>ICAP-1697 Set "hunt_delay":"0" if "Waits for" was set to 0 for a ring group member</li><li>ICAP-1699 "PBX management" feature is not enabled after the changes are saved</li><li>ICAP-1702 It is impossible to delete all follow-me or advanced forwarding rules at once</li><li>ICAP-1583 Restrict changes of "Auto-payments" options if "Billing" submenu has View only permission</li><li>ICAP-1596 Vertical scroll appears when adding custom interval with defined time for AA menu</li><li>ICAP-1638 Reduce the size of the confirmation dialogue for auto-attendant menu</li><li>ICAP-1642 Default "Simultaneous" mode is not set via the API call for follow-me and advanced forwarding if it is set on the product level and restricted from editing by end user</li><li>ICAP-1643 Impossible to set simple forwarding if forward to SIP URI was enabled before and vise versa</li><li>ICAP-1660 Queued calls are not counted for a ring group</li><li>ICAP-1663 Wrong tooltip text for 2FA option of a portal user</li><li>ICAP-1664 Enable 2FA toggle only after the Save button is pressed and open Security tab after the page is reloaded</li><li>ICAP-1681 "Reset 2FA key" is still active on portal user's Security page after resetting it by other user/customer</li><li>ICAP-1682 Show the warning about a wrong OTP if it is entered on the portal user page to confirm the 2FA config</li><li>ICAP-1686 Layout issues for reset password form</li><li>ICAP-1688 Impossible to switch to Simple forwarding if Follow-me mode has existing rules</li><li>ICAP-1691 The path has a duplicate in the URL when switching between Settings and Security tabs of a portal user</li><li>ICAP-1693 User is not redirected to the Login page if this user enters a wrong OTP and then resets the 2FA key</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.48.0" term="0.48.0"/>
+        <category label="0.49.0" term="0.49.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.47.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.47.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.47.0"/>
+        <updated>2023-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.47.0 introduces two-factor authentication]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.47.0 introduces two-factor authentication  </p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1487: Two-factor authentication</li><li>ICAP-1639: Set Follow-me forwarding mode as default option when call forwarding is enabled</li></ul><p><strong>Bugfixes:</strong></p><ul><li>ICAP-1342 Fix translation for "Whole day" for de and pt</li><li>ICAP-1480 The page jumps when switching between tabs with call screening filters</li><li>ICAP-1526 Fix translations for English, German and Portuguese in schedules</li><li>ICAP-1538 Misaligned timeout option and the info icon in the Edit call screening mode dialogue</li><li>ICAP-1542 Incorrect char counter for the length of response message names</li><li>ICAP-1547 "..." not shown for cropped filter values if they contain spaces in call screening policy rule</li><li>ICAP-1554 Arrange subsequent years as ranges delimited by hyphens for call screening time filters</li><li>ICAP-1640 Arrange subsequent years as ranges delimited by hyphens for call forwarding rules</li><li>ICAP-1644 Make option "Permanently" a default value for the "Ringing" setting in "Edit group member" dialogue</li><li>ICAP-1651 Loading animation is not centrally aligned</li><li>ICAP-1657 Broken layout for call screening time filter interval</li><li>ICAP-1662 The Enter OTP dialogue is shown even though the 2FA config has been confirmed already</li><li>ICAP-1665 Toggle for 2FA is shown and API requests are sent if backend doesn't support 2FA</li><li>ICAP-1666 Display the actual status of 2FA if it is inherited from the customer class</li><li>ICAP-1671 Skip the call to generate a new 2FA config when a user tries to enable 2FA and the config already exists</li><li>ICAP-1672 Show the error about a wrong OTP on the portal user page on attempt to disable 2FA by this user</li><li>ICAP-1673 Customer is redirected to the Login dialogue after resetting a 2FA key for another user</li><li>ICAP-1674 "Reset 2FA key" is disabled right after 2FA and its key are activated on own user page</li><li>ICAP-1675 A pop-up dialogue with QR code re-appears on opening profile/user page if user didn't finish 2FA activation</li><li>ICAP-1678 Customer is not redirected to login page after resetting own 2FA key</li><li>ICAP-1679 "Reset 2FA key" becomes active after enabling 2FA for another user even though the 2FA config has not been generated/stored</li><li>ICAP-1680 "Disable two-factor authentication" top-up appears after closing it if user hadn't finished disabling 2FA due to wrong OTP</li><li>ICAP-1683 User is redirected to login after clicking Cancel in the window to reset 2FA key</li><li>ICAP-1684 Window to reset 2FA key is closed without error if a wrong OTP was entered by a portal user on its own page</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.47.0" term="0.47.0"/>
+    </entry>
+</feed>
