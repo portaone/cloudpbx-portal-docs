@@ -4,10 +4,21 @@
         <title>Cloud Call Center Documentation Blog</title>
         <link>https://portaone.github.io/cloudpbx-portal-docs/blog</link>
         <description>Cloud Call Center Documentation Blog</description>
-        <lastBuildDate>Wed, 14 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release Notes 1.0.1]]></title>
+            <link>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-1.0.1</link>
+            <guid>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-1.0.1</guid>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 1.0.1 brings new functionality and bugfixes. Minimal PortaSwitch version is MR106, thus we incresed MAJOR version from 0.58.0 to 1.0.1.]]></description>
+            <content:encoded><![CDATA[<p>Release 1.0.1 brings new functionality and bugfixes. Minimal PortaSwitch version is MR106, thus we incresed MAJOR version from <strong>0</strong>.58.0 to <strong>1</strong>.0.1.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-1711 Allow users to import extensions of main offices from a CSV file</li><li>ICAP-1789 Configure portals to create active or inactive SIP trunks</li><li>ICAP-1878 Implement a switchboard that allows to control current calls (e.g. put them on hold, disconnect, transfer or add more participants)</li><li>ICAP-1889 Allow users to change to the dark theme in a full-screen mode of the Wallboard</li><li>ICAP-1929 Add a delay after putting the call on hold/resuming the call and before refreshing the list of current calls</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugs">Bugs:<a href="#bugs" class="hash-link" aria-label="Direct link to Bugs:" title="Direct link to Bugs:">​</a></h3><ul><li>ICAP-1647 Show a single warning when a user's session expired and this user opens the portal</li><li>ICAP-1844 Remove an extra space for service icons in lists of extensions, auto-attendants and SIP trunks</li><li>ICAP-1886 Call volumes widget shows wrong statistics if a donut chart is selected</li><li>ICAP-1887 The filter's label is missing when Table is changed with Donut chart for a call volumes widget</li><li>ICAP-1890 The localized option does not fit the menu More actions for a device inventory</li><li>ICAP-1894 Localization for an auto-attendant menu tab is missing for German and Brazilian Portuguese</li><li>ICAP-1895 Message about error on another tab is not localized for German and Brazilian Portuguese</li><li>ICAP-1901 An extension or an account is assigned to a DID number even though its selection was canceled before confirming a DID purchase</li><li>ICAP-1906 Change the name of the permission node for Custom links</li><li>ICAP-1907 Prohibit branch customers to import extensions from a CSV file</li><li>ICAP-1908 Replace white with dark color for the dark theme in full-screen mode of Wallboard</li><li>ICAP-1909 Add animation for the button to change themes in the full-screen mode</li><li>ICAP-1910 Adjust the German and Portuguese translations</li><li>ICAP-1922 Wrong label for a radio button in the dialogue to transfer an active call</li><li>ICAP-1923 Disable button Transfer when a ring group is not selected in the dialogue to transfer an active call</li><li>ICAP-1924 Prohibit call transfers to extensions that already participate in the call</li><li>ICAP-1926 Show extension and name in the dialogue to transfer a current call</li><li>ICAP-1927 Add the on-hover state for the dropdown options in the Transfer call and Add participant to conference call dialogues</li><li>ICAP-1937 Add an extension name to the value selected in dialogues to transfer a call and add another participant</li></ul>]]></content:encoded>
+            <category>release notes</category>
+            <category>portal</category>
+            <category>1.0.1</category>
+        </item>
         <item>
             <title><![CDATA[Release Notes 0.57.1]]></title>
             <link>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.57.1</link>
