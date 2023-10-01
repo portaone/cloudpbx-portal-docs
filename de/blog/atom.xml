@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2023-08-28T00:00:00.000Z</updated>
+    <updated>2023-10-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.59.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.59.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.59.0"/>
+        <updated>2023-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.59.0 brings a few bugfixes and enhancements]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.59.0 brings a few bugfixes and enhancements</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1974 Allow users to playback/stream MP3 call recordings in their browsers (WAV recordings are not supported by some browsers)</li><li>ICAP-2006 Change the name of the application in the manifest</li><li>ICAP-2015 Decrease the height of the bottom panel which allows to delete call recordings</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2020 Table column headers are misaligned for Recent calls</li><li>ICAP-2045 Allow users to pause/play call recordings and adjust the volume if their access to call recordings is view-only</li><li>ICAP-1973 Make it possible for users to set a standard tone for the ringback tone of a ring group</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.59.0" term="0.59.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 1.4.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.4.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.4.0"/>
+        <updated>2023-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 1.4.0 brings new functionality and bugfixes. Minimal PortaSwitch version is MR106.]]></summary>
+        <content type="html"><![CDATA[<p>Release 1.4.0 brings new functionality and bugfixes. Minimal PortaSwitch version is MR106.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1974 Allow users to playback/stream MP3 call recordings in their browsers (WAV recordings are not supported by some browsers)</li><li>ICAP-2018 Allow users to get call statistics</li><li>ICAP-2032 Breakdown for total calls on Call statistics tab</li><li>ICAP-1993 Improvements for the Call activity menu</li><li>ICAP-1995 Add indication of loading when assigning device to extension</li><li>ICAP-1998 Restrict a possibility to add a payment method for the token-only payment processors</li><li>ICAP-2000 Change the size of the spinner shown while the page is initially loading</li><li>ICAP-2006 Change the name of the application in the manifest</li><li>ICAP-1885 Allow users to configure an automated wrap-up scheduling for ring group members (fully functional in MR108+)</li><li>ICAP-2015 Decrease the height of the bottom panel which allows to delete call recordings</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2005 Undefined error appears on attempt to create an auto-attendant with scheduled business hours</li><li>ICAP-2020 Table column headers are misaligned for Recent calls</li><li>ICAP-2021 Hide the Add method button if a default payment method already exists</li><li>ICAP-2023 Prohibit to enable Call wrap-up for customers whose call_center_activity is disabled</li><li>ICAP-2025 Allow users to enable Call wrap-up with default settings</li><li>ICAP-2026 "This field is required" error is shown even after a user sets wrap-up duration and its maximum extension</li><li>ICAP-2033 Call Activity menu throws an error if there are no ring groups</li><li>ICAP-2034 The name of the auto-attendant and fax mailbox is not shown</li><li>ICAP-2035 Wrong tooltip is shown for available extensions in Call activity</li><li>ICAP-2037 Use filters for request BillingSession/get_active_sessions_list</li><li>ICAP-2041 Add the % symbol to Call abandon rate</li><li>ICAP-2045 Allow users to pause/play call recordings and adjust the volume if their access to call recordings is view-only</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="1.4.0" term="1.4.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 1.3.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.3.0</id>
