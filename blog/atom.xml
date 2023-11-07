@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2023-10-02T00:00:00.000Z</updated>
+    <updated>2023-11-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.3]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.57.3</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.57.3"/>
+        <updated>2023-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.3 brings a few bugfixes to customers running PortaSwitch MR100-MR103]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.3 brings a few bugfixes to customers running PortaSwitch MR100-MR103</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-2054 Wrong auto-attendant time interval is created</li><li>ICAP-2055 Timeout is not reset after "No input" action is deleted from an auto-attendant menu</li><li>ICAP-2079 Wrong interval is shown for the auto-attendant interval</li><li>ICAP-2084 It is impossible to change the time interval for an auto-attendant menu from the whole day to a more specific interval</li><li>ICAP-2088 Allow users to delete a selected time interval for auto-attendant menu</li><li>ICAP-2091 Allow users to see all time intervals that an auto-attendant menu has</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility-between-versions-of-the-portal-and-portaswitch">Compatibility between versions of the portal and PortaSwitch:<a href="#compatibility-between-versions-of-the-portal-and-portaswitch" class="hash-link" aria-label="Direct link to Compatibility between versions of the portal and PortaSwitch:" title="Direct link to Compatibility between versions of the portal and PortaSwitch:">​</a></h3><ul><li>MR100-MR103:	latest portal version is 0.57.3</li><li>MR104-MR105:	latest portal version is 0.59.0</li><li>MR106+: latest portal version is 1.4.0</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.3" term="0.57.3"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 0.59.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-0.59.0</id>
