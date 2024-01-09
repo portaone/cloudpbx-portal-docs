@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-01-02T00:00:00.000Z</updated>
+    <updated>2024-01-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.59.5]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.59.5</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.59.5"/>
+        <updated>2024-01-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.59.5 brings a few bugfixes]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.59.5 brings a few bugfixes</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2156: The Customer can't renew the expired password using 2FA</li><li>ICAP-2157: Let users with new passwords and 2FA log in</li><li>ICAP-2172: Let users with configured 2FA and a new password enter an authentication code and change the password</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility-between-versions-of-the-portal-and-portaswitch">Compatibility between versions of the portal and PortaSwitch:<a href="#compatibility-between-versions-of-the-portal-and-portaswitch" class="hash-link" aria-label="Direkter Link zur Compatibility between versions of the portal and PortaSwitch:" title="Direkter Link zur Compatibility between versions of the portal and PortaSwitch:">​</a></h3><ul><li>MR95-MR99: lastest portal version is 0.36.1</li><li>MR100-MR103:	latest portal version is 0.57.3</li><li>MR104-MR105:	latest portal version is 0.59.5</li><li>MR106+: latest portal version is 1.7.0</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.59.5" term="0.59.5"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 1.7.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.7.0</id>
