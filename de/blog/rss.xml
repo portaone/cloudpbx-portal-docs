@@ -10,8 +10,8 @@
         <language>de</language>
         <item>
             <title><![CDATA[Discover What's New! 0.59.x-1.9.x Changelog]]></title>
-            <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.9.1</link>
-            <guid>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.9.1</guid>
+            <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/whats-new-0.59.x-1.9.x</link>
+            <guid>https://portaone.github.io/cloudpbx-portal-docs/de/blog/whats-new-0.59.x-1.9.x</guid>
             <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Get ready to supercharge the user experience with CloudPBX portal version 1.9.1! We're thrilled to unveil our latest update, packed with exciting features and enhancements to take cloud PBX productivity to new heights. Your feedback has been instrumental in shaping this release, and we're excited to share the results with you.]]></description>
             <content:encoded><![CDATA[<p>Get ready to supercharge the user experience with CloudPBX portal version 1.9.1! We're thrilled to unveil our latest update, packed with exciting features and enhancements to take cloud PBX productivity to new heights. Your feedback has been instrumental in shaping this release, and we're excited to share the results with you.</p><p>Let's dive in and explore the incredible enhancements awaiting you:</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="import-extensions-effortlessly">Import Extensions Effortlessly<a href="#import-extensions-effortlessly" class="hash-link" aria-label="Direkter Link zur Import Extensions Effortlessly" title="Direkter Link zur Import Extensions Effortlessly">​</a></h3><p>Now, CloudPBX administrators can easily import extensions from a CSV file using our streamlined process. This will vastly simplify the process of setting up a cloud PBX environment for new business customers – especially when they are switching to your CSP from another provider. In this video, we explain all the benefits of this useful new feature and answer a few FAQs.
