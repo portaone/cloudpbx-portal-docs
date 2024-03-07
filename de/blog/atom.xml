@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-03-01T00:00:00.000Z</updated>
+    <updated>2024-03-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 2.0.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.0.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.0.0"/>
+        <updated>2024-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 2.0.0 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 2.0.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is MR113 (release date: March 22, 2024).</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2106: Shared call parking</li><li>ICAP-2252: Add the info tooltip for a call parking slot description</li><li>ICAP-2257: Publish latest German and Portuguese translations</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2259: Allow PortaSwitch Admin to get redirected to the portal and log in without entering the password</li><li>ICAP-2250: Show the error about a duplicated slot number in the dialogue instead of the toast message</li><li>ICAP-2251: A call parking slot that was just deleted is shown in the list before reloading the page</li><li>ICAP-2253: The value of "i_parking_slot" is shown in the dialog to confirm the deletion of a call parking slot</li><li>ICAP-2254: The Save button is active in the dialogue to edit a call parking slot for users with vew-only access</li><li>ICAP-2255: Allow to add new call parking slots to users with view-only or restricted access to call parking slot details</li><li>ICAP-2256: The Save button in the dialogue to edit a call parking slot is active for a user belonging to a branch office</li><li>ICAP-2265: The Save button is active in the dialog to edit a call parking slot even though no changes are introduced</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="2.0.0" term="2.0.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Discover What's New! 0.59.x-1.9.x Changelog]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/whats-new-0.59.x-1.9.x</id>
