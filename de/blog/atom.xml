@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-03-07T00:00:00.000Z</updated>
+    <updated>2024-03-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes for 0.59.7, 0.57.5]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.5-0.59.7</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.5-0.59.7"/>
+        <updated>2024-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Releases 0.59.7, 0.57.5 deliver a bugfix]]></summary>
+        <content type="html"><![CDATA[<p>Releases 0.59.7, 0.57.5 deliver a bugfix</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfix">Bugfix:<a href="#bugfix" class="hash-link" aria-label="Direkter Link zur Bugfix:" title="Direkter Link zur Bugfix:">​</a></h3><p>ICAP-2278 "Total calls today" is displayed as 0 because the date in the request is in the customer's time zone (TZ) and not UTC</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="compatibility-between-versions-of-the-portal-and-portaswitch">Compatibility between versions of the portal and PortaSwitch:<a href="#compatibility-between-versions-of-the-portal-and-portaswitch" class="hash-link" aria-label="Direkter Link zur Compatibility between versions of the portal and PortaSwitch:" title="Direkter Link zur Compatibility between versions of the portal and PortaSwitch:">​</a></h3><ul><li>MR95-MR99: lastest portal version is 0.36.1</li><li>MR100-MR103:	latest portal version is 0.57.5</li><li>MR104-MR105:	latest portal version is 0.59.7</li><li>MR106+: latest portal version is 1.9.1</li><li>MR113+: latest portal version is 2.0.0</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.59.7" term="0.59.7"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 2.0.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.0.0</id>
