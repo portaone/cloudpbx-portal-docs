@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-03-18T00:00:00.000Z</updated>
+    <updated>2024-04-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 2.1.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.1.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.1.0"/>
+        <updated>2024-04-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 2.1.0 brings new functionality and bugfixes, mostly around Supervisors access.]]></summary>
+        <content type="html"><![CDATA[<p>Release 2.1.0 brings new functionality and bugfixes, mostly around Supervisors access.
+Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2284: Prohibit supervisors to add/update/delete entities and their attributes they don't have access to</li><li>ICAP-2306: Prohibit supervisors to edit attributes of devices</li><li>ICAP-2302: Supervisors see undefined name of a call queue in the dialogue to edit an auto-attendant action</li><li>ICAP-2301: Allow supervisors to see an extension designated for them on My profile</li><li>ICAP-2300: Hide "Auto-pay invoice using default payment method" option from supervisors</li><li>ICAP-2296: Allow supervisors to access details of other portal users in the read-only mode</li><li>ICAP-2285: Allow Administrators to access the list of portal users including supervisors and see their details</li><li>ICAP-2277: Allow supervisors to access call statistics related to supervised agents</li><li>ICAP-2276: Allow supervisors to access recent calls of supervised agents</li><li>ICAP-2275: Allow supervisors to access current calls of supervised agents</li><li>ICAP-2266: Allow supervisors to see a number and ring group name in the dialogue to edit a group member</li><li>ICAP-2262: Allow supervisors to see supervised agents on the supervisor panel</li><li>ICAP-2258: Allow supervisors to see supervised ring groups on the supervisor panel</li><li>ICAP-2240: Implement permissions for the supervisor panel</li><li>ICAP-2144: Introduce the supervisor's panel for users with a corresponding role</li><li>ICAP-2309: Add localization for the supervisor's panel</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2325: Application crashes if the extension assigned to a supervisor does not have the supervisor option enabled</li><li>ICAP-2322: Prohibit supervisors to enable/disable the supervisor option and to exclude a member from a ring group</li><li>ICAP-2319: Extensions without names are shown with dash in the list of supervisor agents</li><li>ICAP-2320: Disable Spy/Whisper/Barge-in buttons for not yet connected calls</li><li>ICAP-2317: Notify a user about an error on Settings tab</li><li>ICAP-2307: Filter the list reloaded after the Logged-in status is changed for agents by a supervisor</li><li>ICAP-2311: A portal user is logged out after changing their language in the portal user details</li><li>ICAP-2305: The label of the dropdown menu overlaps the hint</li><li>ICAP-2286: Layout issue in the dialogue to transfer a call</li><li>ICAP-2304: Layout issue with the buttons in the list of devices</li><li>ICAP-2299: Center align the buttons for the lists accessed by a supervisor</li><li>ICAP-2261: Check "Configure SIP contact for the SIP trunk" tests</li><li>ICAP-2291: Remove the hardcoded value USD used for iso_4217 when the actual customer's currency is not returned</li><li>ICAP-2278: "Total calls today" is displayed as 0 because the date in the request is in the customer's time zone (TZ) and not UTC</li><li>ICAP-2095: Wrong time intervals are added for an auto-attendant menu in 0.36.1</li><li>ICAP-2269: Slow response from Calls-Activity page due to multiple "get_account_list" API calls.</li><li>ICAP-2328: Missing Portuguese translation for number of call records</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="2.1.0" term="2.1.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes for 0.59.7, 0.57.5]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-0.57.5-0.59.7</id>
