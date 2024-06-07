@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-04-30T00:00:00.000Z</updated>
+    <updated>2024-06-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 2.2.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.2.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.2.0"/>
+        <updated>2024-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 2.2.0 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 2.2.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-2268: Change the way how counters of idle agents/extensions are calculated</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-2267: Old info of updated call parking slot and phone book entry shown for a while after closing the dialog                   </li><li>ICAP-2271: The counter of calls connected today is 0 even though there were established calls                                      </li><li>ICAP-2332: No correlation between calls list and call counter                                                                      </li><li>ICAP-2335: The navigation sidebar changes its width when a user selects the Supervisor panel                                       </li><li>ICAP-2270: Remove unnecessary parameters from get_account_list requests in Call activity                                           </li><li>ICAP-2228: Impossible to set a default customer's timezone by clearing the existing value                                          </li><li>ICAP-2323: "All" check-box cannot be chosen in "Agents" list if some other agent is set                                            </li><li>ICAP-2326: Read-only permissions for the supervisor panel do not allow to filter data                                              </li><li>ICAP-2329: Layout issue in the list of call records with 2 converted files                                                         </li><li>ICAP-2245: Fix the position of the field showing the total amount and applied taxes to prepaid customers with German or Portuguese </li><li>ICAP-2239: Replace 0 (zero) with a number placeholder for the counter of connected calls when the data is still loading</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="2.2.0" term="2.2.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 2.1.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.1.0</id>
