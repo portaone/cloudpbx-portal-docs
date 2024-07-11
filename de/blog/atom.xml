@@ -2,11 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-06-07T00:00:00.000Z</updated>
+    <updated>2024-07-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 3.0.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.0.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.0.0"/>
+        <updated>2024-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 3.0.0 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 3.0.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2375: Render loading animation while the application fetches info about extensions to be displayed in the list of Current calls  </li><li>ICAP-2358: Let users disable the auto refresh option for wallboard widgets</li><li>ICAP-2287: Allow users to download transcriptions of recorded calls</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1940: Extension name is not shown in the call console under branch office</li><li>ICAP-2355: Display name is not shown in Activity tab</li><li>ICAP-2242: Only first 500 accounts and extensions are fetched on ring group page</li><li>ICAP-2354: Wrong counter of available extensions</li><li>ICAP-2356: Sequence is not updated to "Order" when enabling SIP URI forwarding</li><li>ICAP-2370: It is impossible to download a call transcription after the transcription for the previous call is downloaded</li><li>ICAP-2345: Simple forwarding is created with Simultaneous sequence</li><li>ICAP-2308: Update a particular i_menu_transition instead of creating a new one</li><li>ICAP-2336: The layout issue with localization of buttons to Ukrainian</li><li>ICAP-2233: The dialogue changes its title/contents after a user presses Cancel to close it</li><li>ICAP-2327: Automatically refresh donuts on the supervisor panel every 10 minutes</li><li>ICAP-2314: The page reloads two times after the language is changed for a user</li><li>ICAP-2279: Tabs with extension details are shown for a while and then disappear </li><li>ICAP-2344: Content of updated call screening rule and auto-attendant menu action is blinking for a while after closing the dialog</li><li>ICAP-2360: Extension cannot be updated</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="3.0.0" term="3.0.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 2.2.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.1"/>
+        <updated>2024-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 2.2.1 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 2.2.1 brings new functionality and bugfixes.
+Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2358: Let users disable the auto refresh option for wallboard widgets</li><li>ICAP-2375: Render loading animation while the application fetches info about extensions to be displayed in the list of Current calls</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1940: Extension name is not shown in the call console under branch office</li><li>ICAP-2345: Simple forwarding is created with Simultaneous sequence</li><li>ICAP-2355: Display name is not shown in Activity tab</li><li>ICAP-2356: Sequence is not updated to "Order" when enabling SIP URI forwarding</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="2.2.1" term="2.2.1"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 1.9.2]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.9.2</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-1.9.2"/>
+        <updated>2024-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 1.9.2 brings new functionality. Minimal PortaSwitch version is MR106.]]></summary>
+        <content type="html"><![CDATA[<p>Release 1.9.2 brings new functionality. Minimal PortaSwitch version is MR106.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2358: Let users disable the auto refresh option for wallboard widgets</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="1.9.2" term="1.9.2"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 2.2.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.0</id>
