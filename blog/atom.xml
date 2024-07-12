@@ -24,12 +24,12 @@ Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anch
         <category label="3.0.0" term="3.0.0"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Release Notes 2.2.2]]></title>
-        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.2.2</id>
-        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.2.2"/>
+        <title type="html"><![CDATA[Release Notes 2.2.3]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.2.3</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-2.2.3"/>
         <updated>2024-07-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Release 2.2.2 brings new functionality and bugfixes.]]></summary>
-        <content type="html"><![CDATA[<p>Release 2.2.2 brings new functionality and bugfixes.
+        <summary type="html"><![CDATA[Release 2.2.3 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 2.2.3 brings new functionality and bugfixes.
 Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-2358: Let users disable the auto refresh option for wallboard widgets</li><li>ICAP-2375: Render loading animation while the application fetches info about extensions to be displayed in the list of Current calls</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1940: Extension name is not shown in the call console under branch office</li><li>ICAP-2345: Simple forwarding is created with Simultaneous sequence</li><li>ICAP-2355: Display name is not shown in Activity tab</li><li>ICAP-2356: Sequence is not updated to "Order" when enabling SIP URI forwarding</li></ul>]]></content>
         <author>
             <name>Oleg Shevtsov</name>
@@ -37,7 +37,7 @@ Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavba
         </author>
         <category label="release notes" term="release notes"/>
         <category label="portal" term="portal"/>
-        <category label="2.2.2" term="2.2.2"/>
+        <category label="2.2.3" term="2.2.3"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 1.9.2]]></title>

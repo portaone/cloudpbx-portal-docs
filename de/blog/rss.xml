@@ -21,16 +21,16 @@ Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anch
             <category>3.0.0</category>
         </item>
         <item>
-            <title><![CDATA[Release Notes 2.2.2]]></title>
-            <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.2</link>
-            <guid>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.2</guid>
+            <title><![CDATA[Release Notes 2.2.3]]></title>
+            <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.3</link>
+            <guid>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.3</guid>
             <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Release 2.2.2 brings new functionality and bugfixes.]]></description>
-            <content:encoded><![CDATA[<p>Release 2.2.2 brings new functionality and bugfixes.
+            <description><![CDATA[Release 2.2.3 brings new functionality and bugfixes.]]></description>
+            <content:encoded><![CDATA[<p>Release 2.2.3 brings new functionality and bugfixes.
 Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2358: Let users disable the auto refresh option for wallboard widgets</li><li>ICAP-2375: Render loading animation while the application fetches info about extensions to be displayed in the list of Current calls</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1940: Extension name is not shown in the call console under branch office</li><li>ICAP-2345: Simple forwarding is created with Simultaneous sequence</li><li>ICAP-2355: Display name is not shown in Activity tab</li><li>ICAP-2356: Sequence is not updated to "Order" when enabling SIP URI forwarding</li></ul>]]></content:encoded>
             <category>release notes</category>
             <category>portal</category>
-            <category>2.2.2</category>
+            <category>2.2.3</category>
         </item>
         <item>
             <title><![CDATA[Release Notes 1.9.2]]></title>
