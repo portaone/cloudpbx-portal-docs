@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-07-11T00:00:00.000Z</updated>
+    <updated>2024-08-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 3.1.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.1.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.1.1"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 3.0.0 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 3.0.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR114</strong>. New BLF functionality requires a websocket connection to PortaSwitch API. Please make sure to provide the correct websocket API URL during the portal update.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2293: Allow users to see statuses of colleagues in the dialogues to transfer a call/add a conference participant</li><li>ICAP-2374: Allow users to download a particular call transcription if the same conversation is associated with several transcriptions</li><li>ICAP-2378: UA/get_ua_info API request called 3 times with the same params</li><li>ICAP-2294: Update the list of current calls in real time</li><li>ICAP-2244: Do not allow users to delete the last interval defining when an auto-attendant menu is active</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2415: Duplicated extensions when scrolling call volume table widget with many extensions</li><li>ICAP-2216: Activation and expiration dates when creating/updating user with date after UTC</li><li>ICAP-2235: Allow users to delete unused response messages</li><li>ICAP-2339: Allow supervisors to reset selected ring groups on the Agents tab</li><li>ICAP-2241: Remove the cursor for filters in the current calls menu</li><li>ICAP-2411: Call timer is working without an established websocket connection</li><li>ICAP-2365: Content is blinking after the page reloads following a user update</li><li>ICAP-2412: Websocket connection is not closed when a user navigates from Call activity to another menu</li><li>ICAP-2377: Supervisor panel is broken if there are more than 100 extensions and active call</li><li>ICAP-2380: Change the place of the button to download a call transcription</li><li>ICAP-2313: Wrong message is shown after a call screening mode is deleted</li><li>ICAP-2337: Misaligned table header when the portal is localized to Ukrainian</li><li>ICAP-2382: Total calls number is not correct on Call activity page</li><li>ICAP-2338: Hide the value of the total amount to charge while it is being calculated for a prepaid customer</li><li>ICAP-2398: Duplicated extensions are shown in the list of call volumes widget after its reload</li><li>ICAP-2399: Duplicated Account/get_transactions_total_info calls are made by the call volume widget</li><li>ICAP-2361: Allow users to update a newly added call screening rule  instead of creating a new one</li><li>ICAP-2400: Extra Account/get_account_list call with "extension_id" for call volumes widget</li><li>ICAP-2401: The call volume widget for chosen extensions is empty if data contains extensions not supervised by a user</li><li>ICAP-2405: A user cannot hide extensions with no calls on the call volume widget</li><li>ICAP-2214: Allow users with Pacific/Chatham TZ to see the status of portal users with the same TZ</li><li>ICAP-2217: Activation and expiration dates when creating/updating user with date before UTC</li><li>ICAP-2292: Remove the extra tooltip showing the Contact details of a registered SIP device</li><li>ICAP-2324: Application crashes if the role restricts the API access to call recording</li><li>ICAP-2348: Limits for displaying XDRs on the "Wallboard" page</li><li>ICAP-2383: Sequence is set to "Simultaneous" when forwarding to SIP URI is enabled</li><li>ICAP-2407: Call volume widgets do not show data</li><li>ICAP-2413: Current calls are not filtered by a ring group</li><li>ICAP-2414: Table presentation of "call volume" widget does not show just finished extension calls after widgets reloading</li><li>ICAP-2272: Redirect to the Sign in dialogue after the first Server.Session.check_auth.auth_failed error</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="3.1.1" term="3.1.1"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 3.0.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.0.0</id>
@@ -22,6 +38,22 @@ Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anch
         <category label="release notes" term="release notes"/>
         <category label="portal" term="portal"/>
         <category label="3.0.0" term="3.0.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 2.2.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-2.2.1"/>
+        <updated>2024-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 2.2.1 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 2.2.1 brings new functionality and bugfixes.
+Minimal PortaSwitch version is MR113.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2358: Let users disable the auto refresh option for wallboard widgets</li><li>ICAP-2375: Render loading animation while the application fetches info about extensions to be displayed in the list of Current calls</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-1940: Extension name is not shown in the call console under branch office</li><li>ICAP-2345: Simple forwarding is created with Simultaneous sequence</li><li>ICAP-2355: Display name is not shown in Activity tab</li><li>ICAP-2356: Sequence is not updated to "Order" when enabling SIP URI forwarding</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="2.2.1" term="2.2.1"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 2.2.3]]></title>
