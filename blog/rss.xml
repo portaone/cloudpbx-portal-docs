@@ -4,10 +4,22 @@
         <title>Cloud Call Center Documentation Blog</title>
         <link>https://portaone.github.io/cloudpbx-portal-docs/blog</link>
         <description>Cloud Call Center Documentation Blog</description>
-        <lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release Notes 3.2.0]]></title>
+            <link>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-3.2.0</link>
+            <guid>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-3.2.0</guid>
+            <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 3.2.0 brings new functionality and bugfixes.]]></description>
+            <content:encoded><![CDATA[<p>Release 3.2.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-2027: Add a filter and localization for the new call state Parked</li><li>ICAP-2390: Update the list of current calls on the supervisor panel in real time</li><li>ICAP-2373: Disable/Hide Call Recording download for Supervisor user</li><li>ICAP-2385: Update supervisor's permissions</li><li>ICAP-2387: Prohibit users to select the languages not yet supported by the portal</li><li>ICAP-2391: Update data about current calls and counters of agents in real time</li><li>ICAP-2442: Hide Download call transcription button when a user role restricts access to call transcriptions</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-2297: Change the message seen by a user who logs out or whose session expired</li><li>ICAP-2362: MAC address disappears in the dialog message to confirm the device releasing from its extension when clicking "Cancel"</li><li>ICAP-2364: The Extension label is shown if there is no info to display in a Call volumes widget</li><li>ICAP-2384: The read-only field with the prompt name is too long</li><li>ICAP-2386: The donut is missing for a presence widget if there are no extensions</li><li>ICAP-2394: Impossible to open an auto-attendant menu</li><li>ICAP-2396: A call volume widget displays no data when a period is changed and "Hide extensions with no calls" filter is used</li><li>ICAP-2416: Wrong call statistics is shown in a call volume widget configured for multiple extensions</li><li>ICAP-2418: Call volumes donut widget displays no data after the browser page is reloaded</li><li>ICAP-2420: A call volume widget displays no data after a user changes the period without calls to the period that has calls while "Hide extensions with no calls" filter is used</li><li>ICAP-2422: Update active calls after receiving a websocket event with previous_tracking_id</li><li>ICAP-2429: Filter label is not visible in the dark mode</li><li>ICAP-2432: Extra API calls that unexpectedly refresh wallboard widgets</li><li>ICAP-2440: The presence widget shows a duration of -1 sec on a call start</li><li>ICAP-2441: Extensions have wrong statuses when a call is parked</li><li>ICAP-2446: Missing localization of an extension status in the presence widget with enabled websockets</li><li>ICAP-2453: Call volume widget for the chosen extension shows outdated statistics after the auto-refresh</li><li>ICAP-2454: Incomplete Thai translation</li><li>ICAP-2415: Remove duplicates of extensions for a user who scrolls down a table within a call volume widget configured for multiple extensions</li><li>ICAP-2433: Duplicated extensions in the wallboard widget</li></ul>]]></content:encoded>
+            <category>release notes</category>
+            <category>portal</category>
+            <category>3.2.0</category>
+        </item>
         <item>
             <title><![CDATA[Release Notes 3.1.1]]></title>
             <link>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-3.1.1</link>
