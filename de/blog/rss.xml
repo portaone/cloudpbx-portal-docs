@@ -4,10 +4,22 @@
         <title>Cloud Call Center Documentation Blog</title>
         <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog</link>
         <description>Cloud Call Center Documentation Blog</description>
-        <lastBuildDate>Fri, 29 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[Release Notes 3.3.3]]></title>
+            <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.3</link>
+            <guid>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.3</guid>
+            <pubDate>Thu, 16 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 3.3.3 contains one bugfix.]]></description>
+            <content:encoded><![CDATA[<p>Release 3.3.3 contains one bugfix.
+Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfix">Bugfix:<a href="#bugfix" class="hash-link" aria-label="Direkter Link zur Bugfix:" title="Direkter Link zur Bugfix:">​</a></h3><ul><li>ICAP-2481 Display number is not presented if the override identity is set to the option other than Always</li></ul>]]></content:encoded>
+            <category>release notes</category>
+            <category>portal</category>
+            <category>3.3.3</category>
+        </item>
         <item>
             <title><![CDATA[Release Notes 3.3.2]]></title>
             <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.2</link>

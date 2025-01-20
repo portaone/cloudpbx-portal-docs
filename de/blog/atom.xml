@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2024-11-29T00:00:00.000Z</updated>
+    <updated>2025-01-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 3.3.3]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.3</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.3"/>
+        <updated>2025-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 3.3.3 contains one bugfix.]]></summary>
+        <content type="html"><![CDATA[<p>Release 3.3.3 contains one bugfix.
+Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfix">Bugfix:<a href="#bugfix" class="hash-link" aria-label="Direkter Link zur Bugfix:" title="Direkter Link zur Bugfix:">​</a></h3><ul><li>ICAP-2481 Display number is not presented if the override identity is set to the option other than Always</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="3.3.3" term="3.3.3"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 3.3.2]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.2</id>
