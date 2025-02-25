@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2025-01-21T00:00:00.000Z</updated>
+    <updated>2025-02-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 3.3.5]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.5</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-3.3.5"/>
+        <updated>2025-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 3.3.5 contains bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 3.3.5 contains bugfixes.
+Minimal PortaSwitch version is <strong>MR114</strong>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfix">Bugfix:<a href="#bugfix" class="hash-link" aria-label="Direkter Link zur Bugfix:" title="Direkter Link zur Bugfix:">​</a></h3><ul><li>ICAP-2575 Auto-attendant info is not loaded when opening it from the auto-attendants list</li><li>ICAP-2580 Cache issues on auto-attendant page</li><li>ICAP-2527 Cannot upload .ogg file for Greeting record</li><li>ICAP-2550 Greeting prompt is not loaded for an auto-attendant</li><li>ICAP-2551 update_menu API AA related method isn't called after changing action from "No Input" to digit</li><li>ICAP-2552 Auto-attendant details unexpectedly reload</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="3.3.5" term="3.3.5"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 4.1.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-4.1.0</id>
