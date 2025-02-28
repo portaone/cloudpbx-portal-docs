@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2025-02-25T00:00:00.000Z</updated>
+    <updated>2025-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 4.2.1]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-4.2.1</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-4.2.1"/>
+        <updated>2025-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 4.2.1 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 4.2.1 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR116</strong>. Please consider updating to <strong>MR120</strong> to get even more helpful features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-2493: Replace outdated parameter ip_filter with login_allowed_ip_list</li><li>ICAP-2485: Clean up the results of asynchronous requests</li><li>ICAP-2503: Add a confirmation dialogue for the call transcription removal</li><li>ICAP-2541: Custom localization of UI labels</li><li>ICAP-2543: Enhance the portal flexibility with custom-tailored menus and submenus</li><li>ICAP-2549: Rename "Display number" option</li><li>DO-5168 Fix setting of CUSTOM_TRANSLATION_FILE variable</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-2406: Remove cursor for dropdown list</li><li>ICAP-2451: Call volumes donut widget sometimes displays no data for chosen extension or group after the browser page is reloaded under supervisor</li><li>ICAP-2491: State is not always shown after reloading trunk page</li><li>ICAP-2527: Cannot upload .ogg file for Greeting record</li><li>ICAP-2532: Wrong styling of the tooltip for bundles</li><li>ICAP-2534: Confusing expiration date for wallets without top-ups or without top-up lifetime</li><li>ICAP-2550: Greeting prompt is not loaded for an auto-attendant</li><li>ICAP-2551: update_menu API AA related method isn't called after changing action from "No Input" to digit</li><li>ICAP-2552: Auto-attendant details unexpectedly reload</li><li>ICAP-2553: Schedule is shown as "00:00 - 00:00" on the menu page for always active menu</li><li>ICAP-2554: Localization of Outgoing/Incoming/Forwarded call details</li><li>ICAP-2560: Allow call transfer for calls in the ringing state for the incoming call type</li><li>ICAP-2563: Type="video/ogg" is sent when uploading *.ogg files</li><li>ICAP-2566: Widgets with the table view render "no data" image right after they are added to the  wallboard</li><li>ICAP-2575: Auto-attendant info is not loaded when opening it from the auto-attendants list</li><li>ICAP-2580: Cache issues on auto-attendant page</li><li>ICAP-2583: Logo for custom sections isn't adjusted automatically</li><li>ICAP-2585: Add clarifications to README about the plugin setup</li><li>ICAP-2586: No tooltip for the call transfer button</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="4.2.1" term="4.2.1"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 3.3.5]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-3.3.5</id>
