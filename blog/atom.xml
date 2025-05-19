@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2025-04-17T00:00:00.000Z</updated>
+    <updated>2025-05-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 5.2.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-5.2.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-5.2.0"/>
+        <updated>2025-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 5.2.0 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 5.2.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR120</strong>. Please consider updating to <strong>MR120</strong> to get even more helpful features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-2120: Change confusing labels used in the call flow visualization for auto-attendants</li><li>ICAP-2478: Do not update the list of current calls after receiving an event about a call to an external number</li><li>ICAP-2545: Redesign the call details of the call history for extensions, auto-attendants and SIP trunks</li><li>ICAP-2558: Allow users to select lines for programmable buttons</li><li>ICAP-2602: Let users understand that there are no available device profiles for unsupported phone models</li><li>ICAP-2609: Implement permissions that can restrict users from overriding the caller's identity</li><li>ICAP-2650: Allow users to download contacts from a phone book to a CSV file</li><li>ICAP-2672: It is possible to set an empty value to the timeout field while editing the AA menu action</li><li>ICAP-2674: Allow users to hide unregistered extensions for a presence widget</li><li>ICAP-2676: Open the Phone book tab for a device profile after applying changes to a phone book list</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-2490: Wrong tooltip is shown for account response message</li><li>ICAP-2523: Icon indicating multiple call recordings for the same call differs for Call activity and Call recordings menus</li><li>ICAP-2537: Automatically scroll a call transcription to a matching string</li><li>ICAP-2557: Restrict access to supervisor roles for users belonging to branch offices</li><li>ICAP-2581: Remove unused "routerLink" description from README and supported config options</li><li>ICAP-2589: Payment method info is blinking after page reload</li><li>ICAP-2604: Validate the length of a device profile name when a user edits it</li><li>ICAP-2605: Validate duplicate profile names</li><li>ICAP-2621: UA/get_options_template_info is calling continuously on an attempt to open a profile that does not exist in the system by link</li><li>ICAP-2624: Confirmation dialog to remove device or profile is shown without the entity name for a while after the action button is clicked</li><li>ICAP-2661: The sidebar changes its width for a while after a user opens a phone book entry</li><li>ICAP-2663: Inform users in how many days their bundle expires</li><li>ICAP-2671: There is no error message if user trying to delete phone book that is activated in device profile</li><li>ICAP-2680: Upload not working for auto-attendant prompts</li><li>ICAP-2683: Black donut is shown for a while after a user creates a presence widget</li><li>ICAP-2684: No green circle is shown for idle extensions in the presence widget</li><li>ICAP-2685: Fix the position of the Hide unregistered extension filter for presence widgets</li><li>ICAP-2688: A wrong image and key layout is shown after a user opens a device profile for another model</li><li>ICAP-2689: Empty page on attempt to open device profile with id = 0</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="5.2.0" term="5.2.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 5.1.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/blog/release-notes-5.1.0</id>
