@@ -4,10 +4,22 @@
         <title>Cloud Call Center Documentation Blog</title>
         <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog</link>
         <description>Cloud Call Center Documentation Blog</description>
-        <lastBuildDate>Fri, 16 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
+        <item>
+            <title><![CDATA[Release Notes 5.3.1]]></title>
+            <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-5.3.1</link>
+            <guid>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-5.3.1</guid>
+            <pubDate>Thu, 12 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 5.3.1 brings new functionality and bugfixes.]]></description>
+            <content:encoded><![CDATA[<p>Release 5.3.1 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR120</strong>. Please consider updating to <strong>MR120</strong> to get even more helpful features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-2351: Display the minimum payment amount according to the settings of a selected payment method</li><li>ICAP-2367: Update data about agent when updating data about ring groups and current calls</li><li>ICAP-2637: Allow users to program keys for Polycom VVX 411</li><li>ICAP-2677: Allow users to program keys and provision phone books for Yealink SIP-T43U</li><li>ICAP-2678: Allow users to program keys and provision phone books for Yealink SIP-T46U</li><li>ICAP-2686: Allow users to program keys for Polycom VVX 410</li><li>ICAP-2687: Allow users to program keys for Polycom VVX 250</li><li>ICAP-2692: Disable the delete buttons when the application waits for the response to an API request</li><li>ICAP-2702: Add pagination for Yealink T43U/T46U button templates</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2343: Layout issues for Ukrainian localization</li><li>ICAP-2363: Localization and layout issues for Thai language</li><li>ICAP-2530: Allow users to set an arbitrary start date when they filter payments</li><li>ICAP-2603: No hints for cropped profile values on device and profile page</li><li>ICAP-2620: Users cannot reconfirm leaving the page with a copy of their profile if another copy of their profile has been created before that</li><li>ICAP-2628: Hide a link to a profile for users with restricted access to profiles</li><li>ICAP-2629: "Edit" button and buttons on the phone image are not clickable if user has "view only" access to the profiles</li><li>ICAP-2632: User is returned to the list after saving a profile copy</li><li>ICAP-2660: Restrict users from changing the order of phone books if a phone model does not yet support phone book provisioning</li><li>ICAP-2694: It is possible to type letters in "number input" component or leave it empty</li><li>ICAP-2696: "Last updated" timestamp depends on a browser time of the user</li><li>ICAP-2699: Layout issue with 'Login' title on login page</li><li>ICAP-2705: Error on attempt to pay using minimum amount auto-set by system based on entered card number</li><li>ICAP-2706: Error that profile cannot be created is cached when moving between portal sections</li><li>ICAP-2710: Misaligned columns in the ring group widget of the dashboard</li><li>ICAP-2711: Automatically change the page for the key layout when a user chooses a button from the list</li><li>ICAP-2713: Smoke UI tests for device profile</li><li>ICAP-2714: Layout issues in Chrome</li><li>ICAP-2718: Info icons overlapping the sticky bottom panel on scroll</li></ul>]]></content:encoded>
+            <category>release notes</category>
+            <category>portal</category>
+            <category>5.3.1</category>
+        </item>
         <item>
             <title><![CDATA[Release Notes 5.2.0]]></title>
             <link>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-5.2.0</link>
