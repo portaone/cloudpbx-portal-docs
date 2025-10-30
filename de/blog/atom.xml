@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog</id>
     <title>Cloud Call Center Documentation Blog</title>
-    <updated>2025-08-07T00:00:00.000Z</updated>
+    <updated>2025-10-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://portaone.github.io/cloudpbx-portal-docs/de/blog"/>
     <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://portaone.github.io/cloudpbx-portal-docs/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 6.1.0]]></title>
+        <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-6.1.0</id>
+        <link href="https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-6.1.0"/>
+        <updated>2025-10-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 6.1.0 brings new functionality and bugfixes.]]></summary>
+        <content type="html"><![CDATA[<p>Release 6.1.0 brings new functionality and bugfixes.
+Minimal PortaSwitch version is <strong>MR122</strong> because the portal requires new statistics API. Please consider updating to latest LTS <strong>MR125</strong> to get even more helpful features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direkter Link zur Enhancements:" title="Direkter Link zur Enhancements:">​</a></h3><ul><li>ICAP-1155: Playback prompts, MOH files and ringback tones for ring groups and call queues</li><li>ICAP-1999: Allow users to set display name and number for extensions</li><li>ICAP-2155: Let PortaSwitch Admins easily find/identify auto-attendants by their account ID</li><li>ICAP-2542: Implement permissions for buttons that control call transcriptions in a read-only mode</li><li>ICAP-2646: Display a model name received for a list of device profiles</li><li>ICAP-2653: Announcements for the first caller in the queue</li><li>ICAP-2732: Allow users to program keys for Polycom VVX 300, 301, 310, 350, 450</li><li>ICAP-2735: Let users download a total talk time report</li><li>ICAP-2757: Allow gradients for the navigation panel</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direkter Link zur Bugfixes:" title="Direkter Link zur Bugfixes:">​</a></h3><ul><li>ICAP-2408: Fake connect time when a role restricts access to call recordings</li><li>ICAP-2556: The name of a fax mailbox disappears from the dialogue header after a user clicks to close the dialogue</li><li>ICAP-2633: A wrong profile is opened for users who return to the list after cloning some device profile</li><li>ICAP-2634: Wrong user info is shown under supervisor</li><li>ICAP-2737: Buttons are missing in resulting config file when 'null' is used for the 'line' option</li><li>ICAP-2741: Localization of days and dates for call statistics graphs</li><li>ICAP-2746: Change the hover state for icons in the read-only mode</li><li>ICAP-2748: Layout issue with hours and minutes presentation on call statistics</li><li>ICAP-2749: Time is cropped in the hint on call activity diagram when aggregating by hours or minutes</li><li>ICAP-2750: Missing localization for the warning about unavailable call statistics</li><li>ICAP-2760: Localization of the tooltip is missing for the new call queue option</li><li>ICAP-2765: A ringback tone cannot be played</li><li>ICAP-2769: Supervisor panel is broken for supervisor user with default API role</li><li>ICAP-2774: Missing localization for calls.callStatisticsNotAvailable</li><li>ICAP-2785: Style of the custom menu and errors on the initial page loading</li><li>ICAP-2787: Product cards are too big if the list view is selected for a custom menu</li><li>ICAP-2789: Issue with buttons to add a product to a shopping cart</li><li>ICAP-2790: Adjust the height of the shopping cart sidesheet</li><li>ICAP-2793: Downloaded call statistics report has "To Date/Time" in UTC instead of customer's TZ</li><li>ICAP-2795: "Date/Time" shows only time without dates if call statistics report is for several days and aggregation is less than 1 day</li><li>ICAP-2823: Implement the read-only permissions for the display number and name of extensions</li><li>ICAP-1645: Update permissions-input.json</li><li>ICAP-2487: Call to not supervised extension in shown on supervisor panel if WS is enabled</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="6.1.0" term="6.1.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 6.0.0]]></title>
         <id>https://portaone.github.io/cloudpbx-portal-docs/de/blog/release-notes-6.0.0</id>
