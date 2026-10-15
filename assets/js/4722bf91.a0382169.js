@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcloudpbx_portal_docs=globalThis.webpackChunkcloudpbx_portal_docs||[]).push([[749],{72221:l=>{l.exports=JSON.parse('{"label":"0.54.2","permalink":"/cloudpbx-portal-docs/blog/tags/0-54-2","allTagsPath":"/cloudpbx-portal-docs/blog/tags","count":1}')}}]);
